@@ -1,0 +1,23 @@
+{
+  "name": "typescript-ecosystem-simulator",
+  "source": "src/index.html",
+  "type": "module",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions"
+  ],
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "parcel": "^2.9.3",
+    "prettier": "3.0.0",
+    "typescript": "^5.1.6"
+  }
+}
